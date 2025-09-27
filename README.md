@@ -2,7 +2,7 @@
 
 This repository contains the implementation and analysis of facial expression recognition and affect estimation using deep learning models.
 
-** Project Overview**
+**Project Overview**
 
 Two CNN backbones were explored:
 
@@ -12,7 +12,7 @@ ResNet50 (deeper network, ~25M parameters with skip connections)
 
 Both models were trained using ImageNet pre-trained weights and fine-tuned for classification and regression tasks.
 
-** Training Setup**
+**Training Setup**
 
 Batch size: 32
 
@@ -48,7 +48,7 @@ ResNet50: Best CCC = 0.4895
 
 ResNet50 performed slightly better, making it more reliable for continuous affect prediction.
 
-** Key Insights**
+**Key Insights**
 
 Validation performance highlights the overfitting challenge.
 
@@ -56,7 +56,7 @@ Transfer learning improved training efficiency and generalization.
 
 CCC (Concordance Correlation Coefficient) proved to be the most robust metric for real-world deployment.
 
-** Author**
+**Author**
 
 Omer Hafeez
 Roll No: 22i-1859
